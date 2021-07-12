@@ -175,7 +175,7 @@ table {
 }
 
 td, th {
-  text-align: left;
+  text-align: center;
   color: white;
   border-collapse:collapse;
 }
