@@ -168,15 +168,14 @@ margin-bottom: 40px;
 
 table {
   font-family: Optima;
-  width: 50%;
   background-image:linear-gradient(to right, black 40%, #be1e46 100%);
   color:#be1e46;
   border-radius: 15px;
+  width: 100%;
 }
 
 td, th {
   text-align: left;
-  padding: 8px;
   color: white;
   border-collapse:collapse;
 }
@@ -221,3 +220,5 @@ tr:nth-child(even) {
   -moz-box-shadow: 0px 7px 45px -4px rgba(0,0,0,0.96);
   box-shadow: 0px 7px 45px -4px rgba(0,0,0,0.96);
 }
+
+
