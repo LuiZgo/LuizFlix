@@ -1,7 +1,7 @@
 body {
   font-family: Optima;
   color: white;
-  background-image: linear-gradient(to right, black 40%, #be1e46 100%);
+  background-image: linear-gradient(to right, black 40%, #e4132f 100%);
   font-size: 1.2rem;
   line-height: 1.6em;
   margin: 0;
@@ -20,7 +20,7 @@ p {
 
 }
 .header {
-  background-image:linear-gradient(to right, black 60%,#a3182a 100%) ;
+  background-image:linear-gradient(to right, black 60%,#e4132f 100%) ;
   color: white;
   padding: 0.5rem 0;
   position: fixed;
@@ -167,7 +167,7 @@ margin-bottom: 40px;
 }
 
 table {
-  
+  margin-top: 100px;
   font-family: Optima;
   width: 100%;
   color:#be1e46;
@@ -188,6 +188,7 @@ tr:nth-child(even) {
   -webkit-box-shadow: 0px 7px 45px -4px rgba(228, 45, 85, 0.527);
   -moz-box-shadow: 0px 7px 45px -4px rgba(228, 45, 85, 0.527);
   box-shadow: 0px 7px 45px -4px rgba(228, 45, 85, 0.527);
+  margin-left: 32%;
 }
 .boton__pagar{
   width: 23%;
@@ -197,16 +198,17 @@ tr:nth-child(even) {
   background:black;
   font-family: Optima;
   font-size: 16px;
-  margin-top: 13px;
+  margin-top: 53px;
   margin-left: 4px;
   border: 0;
   -webkit-box-shadow: 0px 7px 45px -4px rgba(228, 45, 85, 0.527);
   -moz-box-shadow: 0px 7px 45px -4px rgba(228, 45, 85, 0.527);
   box-shadow: 0px -5px 46px -4px rgba(228, 45, 85, 0.527);
+  margin-left: 38%;
   
 }
 .boton__eliminar{
-  width: 100%;
+  width: 32%;
   height: 46px;
   border-radius: 5px;
   color: white;
@@ -214,9 +216,14 @@ tr:nth-child(even) {
   font-family: Optima;
   font-size: 16px;
   margin-top: 4px;
+  margin-bottom: 4px;
   margin-left: 4px;
   border: 0;
   -webkit-box-shadow: 0px 7px 45px -4px rgba(0,0,0,0.96);
   -moz-box-shadow: 0px 7px 45px -4px rgba(0,0,0,0.96);
   box-shadow: 0px 7px 45px -4px rgba(0,0,0,0.96);
+  
 }
+.centrado{
+text-align: center;
+margin : 40px;}

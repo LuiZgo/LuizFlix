@@ -48,6 +48,14 @@ let arrayMovies = [
   { name: "spider-man 3", selected: false },
   { name: "spider-man far from home", selected: false },
   { name: "the amazing spider-man", selected: false },
+  { name: "taxi driver", selected: false },
+  { name: "deadpool 2", selected: false },
+  { name: "thor ragnarok", selected: false },
+  { name: "the simpsons movie", selected: false },
+  { name: "zoolander", selected: false },
+  { name: "world war z", selected: false },
+
+
 ];
 
 let estrenos = document.querySelector(".estrenos");
@@ -130,7 +138,7 @@ const llamarPelicula = async () => {
         const año = data.Year;
 
         const div = document.createElement("div");
-        cardInfo = `<h1>${nombrePeli}</h1>
+        cardInfo = `<h1 class="centrado">${nombrePeli}</h1>
         <div class="info__peli">
         <img class="imagen__peli" src="${imagenPeli}">
         
@@ -166,7 +174,7 @@ const llenarCarrito = async () => {
           let totalArray = 0;
           const div = document.createElement("div");
 
-          let carritoPeliculas = ` <table border="1">
+          let carritoPeliculas = ` <table border="0">
           <h1>Carrito de Compras</h1>
           <thead>
             <th>Nombre Pelicula</th>
@@ -184,7 +192,7 @@ const llenarCarrito = async () => {
                   <td>${arrayCompras[i].name}</td>
                   <td>${arrayCompras[i].quantity}</td>
                   <td>${arrayCompras[i].price}</td>
-                  <td><input type="button" value="Eliminar" class="boton__eliminar" nombre="${arrayCompras[i].name}" onclick="eliminarPelicula(this)"></td>
+                  <td><input type="button" value="X" class="boton__eliminar" nombre="${arrayCompras[i].name}" onclick="eliminarPelicula(this)"></td>
                   
                 </tr>`;
           }
