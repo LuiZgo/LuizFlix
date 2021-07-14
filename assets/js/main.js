@@ -35,6 +35,19 @@ let arrayMovies = [
   { name: "parasite", selected: false },
   { name: "Aquaman", selected: false },
   { name: "deadpool", selected: false },
+  { name: "how high", selected: false },
+  { name: "agente topo", selected: false },
+  { name: "que pena tu vida", selected: false },
+  { name: "friday", selected: false },
+  { name: "naruto shippuden", selected: false },
+  { name: "boruto", selected: false },
+  { name: "Attack on titan", selected: false },
+  { name: "pulp fiction", selected: false },
+  { name: "spider-man", selected: false },
+  { name: "spider-man 2", selected: false },
+  { name: "spider-man 3", selected: false },
+  { name: "spider-man far from home", selected: false },
+  { name: "the amazing spider-man", selected: false },
 ];
 
 let estrenos = document.querySelector(".estrenos");
@@ -190,6 +203,7 @@ const llenarCarrito = async () => {
 
           div.innerHTML = carritoPeliculas;
           carrito.innerHTML = carritoPeliculas;
+          console.log(carritoPeliculas)
         });
     });
   } catch (error) {
